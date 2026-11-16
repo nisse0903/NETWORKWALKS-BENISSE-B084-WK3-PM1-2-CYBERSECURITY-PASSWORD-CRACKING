@@ -34,7 +34,7 @@ This project demonstrates two approaches to cracking a password-protected PDF fi
 
 ![Open password file in Johnny and start new attack](enterjohnny.png)
 
-### Step 6. Password cracked — open the PDF with it.
+### Step 6. Password cracked. Open the PDF with it.
 
 ![Password cracked](results.png)
 ![PDF unlocked with cracked password](one.png)
