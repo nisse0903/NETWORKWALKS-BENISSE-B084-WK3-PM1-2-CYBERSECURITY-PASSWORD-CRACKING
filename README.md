@@ -106,4 +106,3 @@ This lab is intended strictly for educational purposes, using a PDF file created
 - Online Hash Extractor: https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php
 - Networkwalks Hash Calculator: https://networkwalks.com/hash-calculator/
 - Networkwalks Password Cracker: https://networkwalks.com/password-cracker/
-- Lab Page: https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
