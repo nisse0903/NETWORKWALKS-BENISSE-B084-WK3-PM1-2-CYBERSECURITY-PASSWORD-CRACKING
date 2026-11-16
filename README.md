@@ -1,9 +1,8 @@
 # NETWORKWALKS-BENISSE-B084-WK3-PM1-2-CYBERSECURITY-PASSWORD-CRACKING
-# NETWORKWALKS-BENISSE-B084-WK1-PM2-PASSWORD-CRACKING-LAB
 
 ## Author
 - Benisse Villasoto
-- My LinkedIn: [https://www.linkedin.com/in/benisse-villasoto-76194b381/](https://www.linkedin.com/in/benisse-villasoto-76194b381/)
+- My LinkedIn: [https://www.linkedin.com/in/benisse-villasoto/](https://www.linkedin.com/in/benisse-villasoto/)
 
 ## Project Information
 - **Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** Password Cracking Lab (John the Ripper & Networkwalks Tools) | **Repository:** GitHub
