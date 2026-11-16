@@ -15,79 +15,57 @@ This project demonstrates two approaches to cracking a password-protected PDF fi
 
 ### Step 1. Download John the Ripper from the official website.
 
-![Download John the Ripper](1-screenshot-jtr-download.png)
-
 ### Step 2. Download and install Johnny GUI, then set it to point to john.exe.
 
-![Install Johnny GUI](2-screenshot-johnny-install.png)
-![Select john.exe in Settings](3-screenshot-johnny-settings.png)
+![Install Johnny GUI](install.png)
+![Select john.exe in Settings](executable.png)
 
 ### Step 3. Upload the encrypted PDF to the online hash extractor and copy the hash.
 
-![Upload PDF to hash extractor](4-screenshot-hash-extractor.png)
-![Copy hash value](5-screenshot-hash-value.png)
+![Upload PDF to hash extractor](file.png)
+![Copy hash value](gethash.png)
 
 ### Step 4. Paste the hash into Notepad and save it as hash1.txt.
 
-![Save hash as hash1.txt](6-screenshot-notepad-hash.png)
+![Paste into Notepad](notehash.png)
+![Save hash as hash1.txt](savehash.png)
 
 ### Step 5. Open hash1.txt in Johnny and click Start new attack.
 
-![Open password file in Johnny](7-screenshot-johnny-open.png)
-![Start new attack](8-screenshot-start-attack.png)
+![Open password file in Johnny and start new attack](enterjohnny.png)
 
 ### Step 6. Password cracked — open the PDF with it.
 
-![Password cracked](9-screenshot-password-cracked.png)
-![PDF unlocked with cracked password](10-screenshot-pdf-unlocked.png)
+![Password cracked](results.png)
+![PDF unlocked with cracked password](one.png)
+![Repeat with the other locked documents. Doc #2](two.png)
+![Doc #3](three.png)
 
 ## Method 2: Networkwalks Online Tools
 
 ### Step 1. Download the encrypted PDF from the lab page.
 
-![Download locked PDF](11-screenshot-locked-pdf.png)
-
 ### Step 2. Open the Networkwalks Hash Calculator.
-
-![Open Hash Calculator](12-screenshot-hash-calculator.png)
 
 ### Step 3. Upload the PDF and generate the hash.
 
-![Upload PDF and generate hash](13-screenshot-hash-generated.png)
-
 ### Step 4. Copy the full hash value starting with $pdf$.
 
-![Copy full hash value](14-screenshot-copy-hash.png)
+![Copy full hash value](nwhashcalc.png)
 
 ### Step 5. Open the Networkwalks Password Cracker.
 
-![Open Password Cracker](15-screenshot-password-cracker.png)
-
 ### Step 6. Paste the hash and start the attack.
-
-![Start password attack](16-screenshot-start-cracking.png)
 
 ### Step 7. Password cracked.
 
-![Cracked password result](17-screenshot-cracked-result.png)
+![Cracked password result](nwpass.png)
 
 ### Step 8. Open the locked PDF and enter the cracked password.
 
-![Enter cracked password](18-screenshot-enter-password.png)
-
 ### Step 9. PDF opens successfully.
 
-![PDF successfully opened](19-screenshot-final-result.png)
-
-## Lab Verification
-
-| Test | Tool Used | Screenshot |
-|------|-----------|------------|
-| Extract PDF hash | OnlineHashCrack PDF Hash Extractor | <img src="hash-extracted.png" width="400"> |
-| Crack password (local) | John the Ripper + Johnny GUI | <img src="jtr-cracked.png" width="400"> |
-| Extract PDF hash (online) | Networkwalks Hash Calculator | <img src="nw-hash.png" width="400"> |
-| Crack password (online) | Networkwalks Password Cracker | <img src="nw-cracked.png" width="400"> |
-| Open decrypted PDF | Adobe/PDF Reader | <img src="pdf-opened.png" width="400"> |
+![PDF successfully opened](nwpdf.png)
 
 ## What I Learned
 
